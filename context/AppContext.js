@@ -1,15 +1,22 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
 import { toast } from 'react-hot-toast';
+import { getLocalStorage } from '../lib/utils';
 
 const Context = createContext();
 
 export const AppContext = ({ children }) => {
     const [ showCart, setShowCart ] = useState(false);
-    const [ cartItems, setCartItems ] = useState([]);
-    const [ cartTotalValue, setCartTotalValue ] = useState(0);
-    const [ cartItemsQuantity, setCartItemsQuantity ] = useState(0);
+    const [ cartItems, setCartItems ] = useState(getLocalStorage('items', []));
+    const [ cartTotalValue, setCartTotalValue ] = useState(getLocalStorage('totalValue', 0));
+    const [ cartItemsQuantity, setCartItemsQuantity ] = useState(getLocalStorage('quantity', 0));
     const [ itemQuantity , setItemQuantity ] = useState(1);
+
+    useEffect(() => {
+        localStorage.setItem('items', JSON.stringify(cartItems));
+        localStorage.setItem('totalValue', JSON.stringify(cartTotalValue));
+        localStorage.setItem('quantity', JSON.stringify(cartItemsQuantity));
+    }, [cartItems, cartTotalValue, cartItemsQuantity]);
 
     let itemToUpdate;
 
