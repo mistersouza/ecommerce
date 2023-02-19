@@ -20,6 +20,7 @@ I am a carrier changer, trying with all my heart and brains breaking into tech. 
 
 - JavaScript ([LinkedIn Assesments Certified](https://www.linkedin.com/in/filiptronicek/))
 - TypeScript
+- React.js
 - Next.js
 - HTML, CSS ([Microsoft Certified](https://www.youracclaim.com/badges/6d5a4a58-c895-4d7e-a725-db1441e9d979/public_url))
 - Node.js ([LinkedIn Assesments Certified](https://www.linkedin.com/in/filiptronicek/))
