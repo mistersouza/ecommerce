@@ -12,7 +12,7 @@
 
 ### What I do
 
-I am a carrier changer, trying with all my heart and brains breaking into tech. So I spend most of days sharping up my recently gained tech skills, networking as learning something new hopping one of job application will get me through.  
+I am a carrier changer, trying with all my heart and brains breaking into tech. So I spend most of days sharping up my recently gained tech skills, networking as well as learning something new, hopping one of job applications will get me through.  
 
 ## My skills 📜
 
@@ -23,6 +23,7 @@ I am a carrier changer, trying with all my heart and brains breaking into tech. 
 - Next.js
 - HTML, CSS ([Microsoft Certified](https://www.youracclaim.com/badges/6d5a4a58-c895-4d7e-a725-db1441e9d979/public_url))
 - Node.js ([LinkedIn Assesments Certified](https://www.linkedin.com/in/filiptronicek/))
+- MongoDB
 
 ### Productivity utilities
 
